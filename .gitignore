@@ -1,0 +1,29 @@
+# Игнориране на файлове и директории, свързани с NUnit
+TestResult.xml
+TestResults/
+*.nunit
+
+# Игнориране на временно генерирани файлове за тестовете
+*.log
+*.tmp
+
+# Игнориране на тестови артефакти и конфигурации
+*.vs
+.vscode/
+.idea/
+
+# Excel файлове за мануални тестове
+*.xlsx
+*.xls
+
+# Игнориране на node_modules за тестове на JavaScript
+node_modules/
+
+# Игнориране на Mocha и Chai тестови файлове, които не са нужни за репозиторието
+*.json
+
+# IDE конфигурации
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
