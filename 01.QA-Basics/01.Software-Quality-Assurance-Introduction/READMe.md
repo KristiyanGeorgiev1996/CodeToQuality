@@ -30,9 +30,6 @@ Testing evaluates software quality, checks compliance with requirements, and ide
 - **Defect (Bug)** – issue in code, design, or requirements.  
 - **Failure** – when a defect manifests during execution.  
 
-**Common causes of defects:**  
-⏳ lack of time · 📚 insufficient training · 🧩 complex code · ❓ unclear requirements · ⚠️ misconfiguration  
-
 ---
 
 ## 🤖 Manual vs Automated Testing
