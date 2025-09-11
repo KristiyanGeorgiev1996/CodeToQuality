@@ -19,4 +19,3 @@
 ## 🛠️ Bug Tracking Systems
 🛠️ For more effective management, defect tracking systems like Jira, GitHub Issues, or BugZilla are used. They allow storage, categorization, and tracking of bugs across projects, facilitate teamwork, and improve problem analysis to prevent future errors. ✅
 
----
