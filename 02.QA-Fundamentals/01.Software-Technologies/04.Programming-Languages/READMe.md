@@ -1,4 +1,4 @@
-# 🖥️ Programming Languages 2 – Overview
+# 🖥️ Programming Languages
 
 Coding, or programming, is the way we give instructions to a computer 💻. Each line of code represents a command, and several commands together form a **program or source code** 📝. For example, we can calculate a value or display the result on the screen using a simple line of code like `console.log(3+5)` ✨. Programming is essentially the art of structuring these instructions so that the computer can execute them efficiently ⚡. Programs can be small and simple, like calculating a number, or huge, like social networks or games 🎮.
 
