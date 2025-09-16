@@ -1,7 +1,5 @@
 # 🧪 Testing Techniques II
 
-**Source:** SoftUni QA Fundamentals 🌐
-
 ---
 
 Black-box testing, also known as specification-based or behavioral testing, evaluates software functionality without knowing the internal code. 🖥️💡 Testers focus on inputs and expected outputs, ensuring the software behaves according to requirements ✅. It is versatile, requires no programming knowledge 📝, and is suitable for web 🌐, database 🗄️, and other systems. Test cases are derived from user stories 📖, design documents 🖊️, or external specifications, and black-box testing can be automated ⚙️ for efficiency across unit, integration, system, and user acceptance testing (UAT) 👥.
