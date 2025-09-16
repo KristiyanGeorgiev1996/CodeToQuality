@@ -14,4 +14,3 @@ To write and run programs, we use **IDEs** – Integrated Development Environmen
 
 In **front-end development**, HTML creates the page structure 🏗️, CSS styles the elements 🎨, and JavaScript adds interactivity ⚡. For example, we can center a heading or calculate a value using simple scripts with variables 📝, conditional statements ❓, and functions 🔄. The same JavaScript code can run in the browser 🌐 or on the server via **Node.js**, which uses the **V8 engine** ⚡ and **npm packages** 📦 for dependency management.
 
-To experiment with **real projects**, we can clone and run examples like [nakov/MVC-app-integration-tests-example-mocha](https://github.com/nakov/MVC-app-integration-tests-example-mocha) 🚀. The project runs using `npm install`, `npm test`, and `npm start`, allowing us to see how a complete Node.js web application works and how HTML, CSS, and JavaScript come together 🌐💻.
