@@ -11,35 +11,35 @@ This file contains my solution for the Task Board testing homework.
 
 # User Stories – Task Board
 
-## Home Page
+### Home Page
 - As a user, I want to view the total number of tasks available in the system on the Home Page, so I can have an overview of the task count.
 - As a user, I want to see a greeting message on the Home Page.
 
-## Navigation
+### Navigation
 - I want options for Home, Task Board, Create, and Search on all pages, no matter where I navigate.
 
-## Task Summary
+### Task Summary
 - I want to see the total number of tasks available.
 - I want a summary organized by boards, displaying the board name and task count.
 
-## Quick Access Buttons
+### Quick Access Buttons
 - I want quick access buttons for Task Board, Create Task, Search Tasks, and RESTful API.
 
-## Task Board Page
+### Task Board Page
 - I want boards ordered as Open, In Progress, Done.
 - Each task should include title, brief description, and options for 'View' and 'Edit'.
 
-## Task Creation
+### Task Creation
 - I want to create tasks with title, description, and board selection.
 - Title is mandatory and must be validated.
 
-## Task Viewing
+### Task Viewing
 - I want to view full task details by clicking 'View'.
 
-## Editing
+### Editing
 - I want to edit task title, description, or move it to another board, and save changes.
 
-## Searching
+### Searching
 - I want to search for tasks by keyword and see relevant results with total count.
 
 ---
