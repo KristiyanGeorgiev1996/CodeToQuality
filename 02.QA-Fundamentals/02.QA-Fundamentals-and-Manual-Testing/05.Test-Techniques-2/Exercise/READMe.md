@@ -69,7 +69,7 @@ This exercise focuses on using Pairwise Testing to reduce the number of necessar
 Using Pairwise testing, the number of necessary test cases was reduced.  
 The screenshot of the reduced test cases is shown below:
 
-![Pairwise Test Cases Screenshot](screenshot.png)
+![Pairwise Test Cases Screenshot](Exercise-photo.png)
 
 ### Negative Test Cases
 
