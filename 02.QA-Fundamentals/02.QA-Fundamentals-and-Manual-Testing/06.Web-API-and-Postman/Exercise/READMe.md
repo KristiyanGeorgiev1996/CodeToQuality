@@ -102,7 +102,8 @@ The tasks you need to perform include:
 ---
 
 ### 2. Edit Task
-```{
+```
+{
     "msg": "Task edited.",
     "task": {
         "id": 5,
@@ -121,7 +122,8 @@ The tasks you need to perform include:
 ---
 
 ### 3. Delete Task
-```{
+```
+{
     "msg": "Task deleted: 5"
 }
 ```
