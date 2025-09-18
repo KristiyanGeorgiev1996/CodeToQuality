@@ -1,4 +1,4 @@
-# 🧪 Fundamentals of Software Testing and Quality Assurance  .
+# 🧪 Fundamentals of Software Testing and Quality Assurance  
 
 This module is dedicated to the **fundamentals of software testing and quality assurance (QA)**. It provides a solid foundation of knowledge and practical skills that prepare students to work on real IT projects.  
 
