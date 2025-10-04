@@ -1,0 +1,151 @@
+// MiniToDoApp/Task.cs
+public class Task
+{
+    public string Title { get; set; }
+    public bool IsCompleted { get; set; }
+
+    public Task(string title)
+    {
+        Title = title;
+        IsCompleted = false;
+    }
+
+    public void MarkCompleted()
+    {
+        IsCompleted = true;
+    }
+}
+
+// MiniToDoApp/ToDoList.cs
+using System.Collections.Generic;
+using System.Linq;
+
+public class ToDoList
+{
+    private List<Task> tasks = new List<Task>();
+
+    public void AddTask(string title)
+    {
+        tasks.Add(new Task(title));
+    }
+
+    public bool RemoveTask(string title)
+    {
+        var task = tasks.FirstOrDefault(t => t.Title == title);
+        if (task != null)
+        {
+            tasks.Remove(task);
+            return true;
+        }
+        return false;
+    }
+
+    public bool MarkTaskCompleted(string title)
+    {
+        var task = tasks.FirstOrDefault(t => t.Title == title);
+        if (task != null)
+        {
+            task.MarkCompleted();
+            return true;
+        }
+        return false;
+    }
+
+    public List<Task> GetAllTasks()
+    {
+        return tasks;
+    }
+}
+
+// MiniToDoApp/Program.cs
+using System;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        var todo = new ToDoList();
+        bool exit = false;
+        
+        while (!exit)
+        {
+            Console.WriteLine("1. Add Task\n2. Remove Task\n3. Mark Task Completed\n4. Show All Tasks\n5. Exit");
+            Console.Write("Choose an option: ");
+            var choice = Console.ReadLine();
+
+            switch (choice)
+            {
+                case "1":
+                    Console.Write("Task title: ");
+                    var title = Console.ReadLine();
+                    todo.AddTask(title);
+                    break;
+                case "2":
+                    Console.Write("Task title to remove: ");
+                    var removeTitle = Console.ReadLine();
+                    todo.RemoveTask(removeTitle);
+                    break;
+                case "3":
+                    Console.Write("Task title to mark completed: ");
+                    var completeTitle = Console.ReadLine();
+                    todo.MarkTaskCompleted(completeTitle);
+                    break;
+                case "4":
+                    var allTasks = todo.GetAllTasks();
+                    foreach (var t in allTasks)
+                    {
+                        Console.WriteLine($"- {t.Title} [{(t.IsCompleted ? "Completed" : "Pending")}] ");
+                    }
+                    break;
+                case "5":
+                    exit = true;
+                    break;
+                default:
+                    Console.WriteLine("Invalid option");
+                    break;
+            }
+            Console.WriteLine();
+        }
+    }
+}
+
+// MiniToDoApp.Tests/ToDoListTests.cs
+using NUnit.Framework;
+using System.Linq;
+
+[TestFixture]
+public class ToDoListTests
+{
+    private ToDoList todo;
+
+    [SetUp]
+    public void Setup()
+    {
+        todo = new ToDoList();
+    }
+
+    [Test]
+    public void AddTask_ShouldIncreaseCount()
+    {
+        todo.AddTask("Test Task");
+        Assert.AreEqual(1, todo.GetAllTasks().Count);
+    }
+
+    [Test]
+    public void RemoveTask_ShouldRemoveTask()
+    {
+        todo.AddTask("Task 1");
+        bool result = todo.RemoveTask("Task 1");
+        Assert.IsTrue(result);
+        Assert.AreEqual(0, todo.GetAllTasks().Count);
+    }
+
+    [Test]
+    public void MarkTaskCompleted_ShouldSetIsCompletedTrue()
+    {
+        todo.AddTask("Task 2");
+        bool result = todo.MarkTaskCompleted("Task 2");
+        Assert.IsTrue(result);
+        Assert.IsTrue(todo.GetAllTasks().First().IsCompleted);
+    }
+}
