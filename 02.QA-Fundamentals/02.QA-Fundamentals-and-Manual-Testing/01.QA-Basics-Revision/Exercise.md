@@ -45,20 +45,4 @@ Quality Assurance (QA) ensures that applications work as intended and meet user 
 
 ---
 
-## Notes
 
-* Positive Test Cases: Verify correct behavior under normal conditions.
-* Negative Test Cases: Check system response to unexpected or invalid inputs.
-* Each scenario can be expanded with additional test cases based on software functionality.
-
----
-
-## README Guidance
-
-* Include a brief explanation of QA and software testing.
-* Explain how the test scenarios demonstrate different types of testing (functional, negative, boundary cases).
-* Show clear table formatting and status placeholders to simulate test execution.
-
----
-
-*This file can be used as a reference for creating structured QA test cases and uploading them to GitHub.*
