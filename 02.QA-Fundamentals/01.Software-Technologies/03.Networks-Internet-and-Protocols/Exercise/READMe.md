@@ -23,11 +23,11 @@ Understand how data travels over the network and verify connectivity to external
 ### Screenshots – Trace and Ping
 **Screenshot 1:** Traceroute result  
 *(Insert your first screenshot here)*  
-![Traceroute](Screendhot-1.png)
+![Traceroute](Screenshot-1.png)
 
 **Screenshot 2:** Ping result  
 *(Insert your second screenshot here)*  
-![Ping](Screendhot-2.png)
+![Ping](Screenshot-2.png)
 
 ---
 
@@ -44,7 +44,7 @@ Learn to determine the IP address behind a domain name using online DNS tools.
 ### Screenshots – DNS Lookup
 **Screenshot 3:** IP address lookup result  
 *(Insert your third screenshot here)*  
-![DNS Lookup](Screendhot-3.png)
+![DNS Lookup](Screenshot-3.png)
 
 ---
 
@@ -61,6 +61,6 @@ Perform a GET request to retrieve data from a public API and inspect the respons
 ### Screenshots – HTTP GET Request
 **Screenshot 4:** GET request result with DevTools open  
 *(Insert your fourth screenshot here)*  
-![HTTP GET](Screendhot-4.png)
+![HTTP GET](Screenshot-4.png)
 
 ---
