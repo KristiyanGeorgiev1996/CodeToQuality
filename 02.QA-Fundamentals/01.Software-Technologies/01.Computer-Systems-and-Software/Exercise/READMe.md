@@ -29,11 +29,11 @@ This project helps you practice organizing ideas using Trello boards, lists, and
 
 **Full Board View:**  
 *(Insert your first screenshot below)*  
-![Travel Bucket List Board](images/travel-board.png)
+![Travel Bucket List Board](Screenshot-1.png)
 
 **Example Destination Card:**  
 *(Insert your second screenshot below)*  
-![Destination Card Example](images/travel-card.png)
+![Destination Card Example](Screenshot-2.png)
 
 ---
 
@@ -60,16 +60,16 @@ You’ll create a personal productivity board that helps you track and organize 
 ### 🖼️ Screenshots – Daily Task Manager
 
 **Full Board View (1/4):**  
-![Daily To-Do List Board 1](images/todo-board1.png)
+![Daily To-Do List Board 1](Screenshot-3.png)
 
 **Full Board View (2/4):**  
-![Daily To-Do List Board 2](images/todo-board2.png)
+![Daily To-Do List Board 2](Screenshot-4.png)
 
 **Completed Task (3/4):**  
-![Completed Task Example 1](images/todo-card1.png)
+![Completed Task Example 1](Screenshot-5.png)
 
 **Completed Task (4/4):**  
-![Completed Task Example 2](images/todo-card2.png)
+![Completed Task Example 2](Screenshot-6.png)
 
 
 ---
