@@ -70,10 +70,3 @@ http://timewise2-env.eba-mkmm3jwy.eu-north-1.elasticbeanstalk.com/api
 
 ---
 
-## Submission Instructions
-- Package your work into a **.zip or .rar** archive containing:  
-  - Test Management & Bug Tracking Excel file  
-  - Postman collection JSON file  
-- Upload the archive to the SoftUni portal in the Regular Exam section.
-
----
