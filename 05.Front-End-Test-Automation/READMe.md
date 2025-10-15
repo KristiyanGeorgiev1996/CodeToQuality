@@ -3,6 +3,11 @@
 This module is designed for QA specialists looking to enhance their **front-end testing** skills. The goal is to develop the ability to choose and use the right tools for different automated testing scenarios in web applications.
 
 ## 💡 Module Highlights
+This module consists of **two courses:**
+1. **01. Front-End Technologies Basics**
+2. **02. Front-End Test Automation**
+
+In these courses, participants will:
 - Work with **HTML and CSS** to understand web page structure
 - Learn key **JavaScript** concepts relevant to testing
 - Automate tests using **Playwright**, **Selenium**, and **Appium**
@@ -11,7 +16,7 @@ This module is designed for QA specialists looking to enhance their **front-end 
 - Design and implement **effective and scalable testing strategies**
 
 ## 🛠️ Hands-On Approach
-The module includes exercises and workshops to apply the learned concepts in practice. **AI tools** are integrated to automate routine tasks, allowing focus on more complex and critical testing aspects.
+The courses include exercises and workshops to apply the learned concepts in practice. **AI tools** are integrated to automate routine tasks, allowing focus on more complex and critical testing aspects.
 
 ## 🎯 After Completing the Module
 - Automate front-end tests using different tools
