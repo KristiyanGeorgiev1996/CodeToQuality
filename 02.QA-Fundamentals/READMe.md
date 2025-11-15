@@ -25,3 +25,4 @@ This module is dedicated to the **fundamentals of software testing and quality a
 ---
 
 ✨ This module provides a clear understanding of QA’s role in the entire development lifecycle and develops skills that are essential for a successful IT career.  
+
