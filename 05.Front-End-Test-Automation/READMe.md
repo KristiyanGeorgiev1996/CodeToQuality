@@ -4,8 +4,8 @@ This module is designed for QA specialists looking to enhance their **front-end 
 
 ## 💡 Module Highlights
 This module consists of **two courses:**
-1. **01. Front-End Technologies Basics**
-2. **02. Front-End Test Automation**
+- **01. Front-End Technologies Basics**
+- **02. Front-End Test Automation**
 
 In these courses, participants will:
 - Work with **HTML and CSS** to understand web page structure
