@@ -1,0 +1,141 @@
+{
+  "id": "41c79b38-6e45-4b0c-9570-cf798569f196",
+  "version": "2.0",
+  "name": "HealthAppDemo",
+  "url": "https://katalon-demo-cura.herokuapp.com",
+  "tests": [
+    {
+      "id": "88940cd9-3e11-4daa-b974-2957fc8577d3",
+      "name": "Conditional_Logic",
+      "commands": [
+        {
+          "id": "1a9c2c7e-918c-4e41-9a09-5511b8ba03e3",
+          "comment": "",
+          "command": "open",
+          "target": "/",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "e895213c-cddf-4c37-b41d-9921755f8349",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "1552x832",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "bbfe4daf-83cc-439d-b3ed-147733b12a07",
+          "comment": "",
+          "command": "storeTitle",
+          "target": "",
+          "targets": [],
+          "value": "webpageTitle"
+        },
+        {
+          "id": "7a20edc0-ed71-4c9a-ad95-43c223a5af25",
+          "comment": "",
+          "command": "if",
+          "target": "${webpageTitle} === \"CURA Healthcare Service\"",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "e70392da-f9b0-4619-9adf-645b881f8e2d",
+          "comment": "",
+          "command": "echo",
+          "target": "Matched",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "595f1c27-8de9-4ef8-b774-c3525c0b5a57",
+          "comment": "",
+          "command": "else",
+          "target": "",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "6fefa334-1c90-400b-aa7c-1ec258db42fc",
+          "comment": "",
+          "command": "echo",
+          "target": "Unmatched",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "86ade28d-d20a-4140-9cb4-e2aa744d55e5",
+          "comment": "",
+          "command": "end",
+          "target": "",
+          "targets": [],
+          "value": ""
+        }
+      ]
+    },
+    {
+      "id": "8f9402b8-5a49-4afc-9b36-82c038191958",
+      "name": "IncorrectLogin_Test",
+      "commands": [
+        {
+          "id": "74db49ea-7506-48c2-8a2d-5e269fd75c40",
+          "comment": "",
+          "command": "open",
+          "target": "/",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "3595032d-75f2-4e09-ab9e-c44a33c2de70",
+          "comment": "",
+          "command": "setWindowSize",
+          "target": "1552x832",
+          "targets": [],
+          "value": ""
+        },
+        {
+          "id": "a2e6a9bd-4259-4fff-8b7f-35a2ac9303d8",
+          "comment": "",
+          "command": "assertText",
+          "target": "css=h1",
+          "targets": [
+            [
+              "css=h1",
+              "css:finder"
+            ],
+            [
+              "xpath=//header[@id='top']/div/h1",
+              "xpath:idRelative"
+            ],
+            [
+              "xpath=//h1",
+              "xpath:position"
+            ],
+            [
+              "xpath=//h1[contains(.,'CURA Healthcare Service')]",
+              "xpath:innerText"
+            ]
+          ],
+          "value": "CURA Healthcare Service"
+        }
+      ]
+    }
+  ],
+  "suites": [
+    {
+      "id": "e7e2471e-957d-420d-91cb-4b97061e07d5",
+      "name": "Default Suite",
+      "persistSession": false,
+      "parallel": false,
+      "timeout": 300,
+      "tests": [
+        "88940cd9-3e11-4daa-b974-2957fc8577d3"
+      ]
+    }
+  ],
+  "urls": [
+    "https://katalon-demo-cura.herokuapp.com/"
+  ],
+  "plugins": []
+}
