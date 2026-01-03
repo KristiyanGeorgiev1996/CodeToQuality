@@ -1,6 +1,6 @@
 # 🏥 HealthAppDemo - Selenium IDE Automation Project
 
-This repository contains a **Selenium IDE project** for automating test scenarios on the demo healthcare website [CURA Healthcare Service](https://katalon-demo-cura.herokuapp.com).  
+This file contains a **Selenium IDE project** for automating test scenarios on the demo healthcare website [CURA Healthcare Service](https://katalon-demo-cura.herokuapp.com).  
 All test cases are designed to demonstrate **recording, playback, debugging, assertions, conditional logic, and looping features** in Selenium IDE.  
 
 ---
