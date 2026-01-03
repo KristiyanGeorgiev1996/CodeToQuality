@@ -28,6 +28,7 @@ This exercise analyzes common web application vulnerabilities, illustrated throu
 
 **Observation**  
 - Access is granted to the administrator account without entering the correct password.
+![Login Bypass](Screenshots/Screenshot-1.png)
 
 **Analysis**  
 - Input values were concatenated directly into an SQL query, allowing manipulation of the WHERE clause logic. The injected fragment `OR '1'='1'` makes the condition always true and grants access.
@@ -54,6 +55,7 @@ This exercise analyzes common web application vulnerabilities, illustrated throu
 
 **Observation**  
 - Browser executes the script (alert dialog appears).
+![Reflected XSS](Screenshots/Screenshot-2.png)
 
 **Analysis**  
 - User input is reflected in the HTML response without proper escaping, allowing execution in the page context.
@@ -80,6 +82,7 @@ This exercise analyzes common web application vulnerabilities, illustrated throu
 
 **Observation**  
 - The script executes every time the notes are viewed.
+![Stored XSS – Public Notes](Screenshots/Screenshot-3.png)
 
 **Analysis**  
 - Input is stored in the database and rendered in HTML without filtering, making the vulnerability persistent and potentially more dangerous.
@@ -102,6 +105,7 @@ This exercise analyzes common web application vulnerabilities, illustrated throu
 
 **Observation**  
 - Access to administrative functionality is granted when modifying client-side parameters/cookies.
+![Broken Access Control – Role Escalation](Screenshots/Screenshot-4.png)
 
 **Analysis**  
 - Authorization checks rely on client-controlled data (query params, cookies) instead of validating the role against the server-side session/database.
@@ -123,6 +127,7 @@ This exercise analyzes common web application vulnerabilities, illustrated throu
 
 **Observation**  
 - Weak passwords are accepted; passwords may be exposed in plain text via debug routes (if present).
+![Password Mismanagement](Screenshots/Screenshot-5.png)
 
 **Analysis**  
 - Lack of complexity requirements and/or absence of hashing/salting makes credentials easily compromised if breached.
