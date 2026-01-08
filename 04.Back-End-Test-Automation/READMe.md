@@ -29,3 +29,4 @@ After completing this module, participants will be able to:
 - Evaluate system quality and performance under different conditions  
 - Use modern tools for monitoring, logging, and data testing  
 - Build a comprehensive and flexible testing strategy for real-world projects ✅  
+
