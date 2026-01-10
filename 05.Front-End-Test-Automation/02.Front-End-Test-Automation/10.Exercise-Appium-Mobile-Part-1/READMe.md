@@ -79,6 +79,7 @@ platformVersion: <your version>
 deviceName: <emulator or device name>
 app: Path to .apk file
 appium:autoGrantPermissions: true  # For ColorNote app
+```
 
 ---
 
