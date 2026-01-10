@@ -116,10 +116,10 @@ A web application to manage a student registry. Demonstrates **Page Object Model
 1. Navigate to your project folder:  
    ```text
    cd path\to\project
- ```
+   ```
 
 2. Install dependencies:
-  ```
+```
 npm install
 ```
 
