@@ -1,6 +1,6 @@
 # 🖥️ Working with Web Elements and Number Calculator
 
-This repository contains solutions for interacting with various web elements using **Selenium WebDriver (C#)**. It includes exercises with forms, tables, dropdown elements, and the "Number Calculator" application.
+This tasks contains solutions for interacting with various web elements using **Selenium WebDriver (C#)**. It includes exercises with forms, tables, dropdown elements, and the "Number Calculator" application.
 
 ---
 
