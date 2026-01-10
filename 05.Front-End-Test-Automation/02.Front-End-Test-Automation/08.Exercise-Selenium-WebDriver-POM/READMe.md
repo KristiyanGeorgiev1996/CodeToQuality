@@ -20,7 +20,7 @@ The main goal is to showcase the **Page Object Model (POM) design pattern**, **r
 ---
 
 ## 📂 Project Structure
-
+```
 SwagLabsAutomation/
 │
 ├─ Base/
@@ -47,7 +47,7 @@ SwagLabsAutomation/
 - Selenium.Support
 - Selenium.WebDriver.ChromeDriver
 - SeleniumExtras.WaitHelpers
-
+```
 
 ---
 
