@@ -22,3 +22,4 @@ The courses include exercises and workshops to apply the learned concepts in pra
 - Automate front-end tests using different tools
 - Identify and address issues and vulnerabilities in web applications
 - Create testing strategies that are effective, maintainable, and scalable
+
