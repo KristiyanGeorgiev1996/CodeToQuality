@@ -152,3 +152,4 @@ namespace SeleniumProject.Tests
 # 🎉 Conclusion
 
 Page Object Model (POM) improves test automation by **separating UI interactions from test logic**, making tests more maintainable, reusable, and readable. Following POM principles is essential for professional and scalable Selenium automation frameworks.
+
